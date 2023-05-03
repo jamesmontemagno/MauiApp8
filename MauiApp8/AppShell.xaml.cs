@@ -6,6 +6,7 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
 
-		Routing.RegisterRoute(nameof(MyTabbedPage), typeof(MyTabbedPage));
-	}
+        Routing.RegisterRoute(nameof(MyTabbedPage), typeof(MyTabbedPage));
+        Routing.RegisterRoute(nameof(MyTabbedPageModal), typeof(MyTabbedPageModal));
+    }
 }

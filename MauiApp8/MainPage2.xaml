@@ -10,5 +10,7 @@
             HorizontalOptions="Center" />
 
         <Button Text="Go To Tabs" Clicked="Button_Clicked"/>
+        <Button Text="Modal Tabs" Clicked="Button_Clicked_1"/>
+
     </VerticalStackLayout>
 </ContentPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp8.MyTabbedPageModal"
+            Shell.PresentationMode="ModalAnimated"
+         
+             Title="MyTabbedPageModal">
+
+    <ContentPage Title="Page 1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI! 1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+    </ContentPage>
+    <ContentPage Title="Page 2">
+        <VerticalStackLayout>
+            <Label 
+            Text="Welcome to .NET MAUI! 1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ContentPage>
+</TabbedPage>
